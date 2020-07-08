@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+   <div class="container">
+      <input id="inp" type="text" readonly>
+      <div class="middle">
+         <div class="col1">
+            <div class="delete_all button" onclick = "clean()">C</div>
+            <div class="seven button" onclick = "insert(`7`)">7</div>
+            <div class="four button" onclick = "insert(`4`)">4</div>
+            <div class="one button" onclick = "insert(`1`)">1</div>
+         </div>
+         <div class="col2">
+            <div class="delete button" onclick = "back()"><</div>
+            <div class="eight button" onclick = "insert(`8`)">8</div>
+            <div class="fife button" onclick = "insert(`5`)">5</div>
+            <div class="two button" onclick = "insert(`2`)">2</div>
+         </div>
+         <div class="col3">
+            <div class="bajanum button" onclick = "insert(`/`)">/</div>
+            <div class="nine button" onclick = "insert(`9`)">9</div>
+            <div class="six button" onclick = "insert(`6`)">6</div>
+            <div class="three button" onclick = "insert(`3`)">3</div>
+         </div>
+         <div class="col4">
+            <div class="bazmapatkum button" onclick = "insert(`*`)">*</div>
+            <div class="minus button" onclick = "insert(`-`)">-</div>
+            <div class="plus button" onclick = "insert(`+`)">+</div>
+         </div>
+      </div>
+      <div class="end">
+         <div class="zero button" onclick = "insert(`0`)">0</div>
+         <div class="amboxj button" onclick = "insert(`.`)">.</div>
+         <div class="havasar button" onclick = "equal()">=</div>
+      </div>
+   </div>
+
+   <script src="js/script.js"></script>
+</body>
+</html>
